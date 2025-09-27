@@ -2,7 +2,8 @@
 {
     public class UserDTO
     {
-        public string Username { get; set; }
+        public string Username { get; set; }// test commit
+
         public string Password { get; set; }  // for login/registration
     }
 }
