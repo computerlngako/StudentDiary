@@ -1,9 +1,14 @@
 ﻿namespace StudentDiary.Services.DTOs
 {
-    public class UserDTO
+    public class UserRegisterDTO
     {
         public string Username { get; set; }
+        public string Password { get; set; }
+    }
 
-        public string Password { get; set; }  // for login/registration
+    public class UserLoginDTO
+    {
+        public string Username { get; set; }
+        public string Password { get; set; }
     }
 }
